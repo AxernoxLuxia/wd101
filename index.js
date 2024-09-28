@@ -108,6 +108,7 @@ let userForm = document.getElementById("user-form");
 let userEntries = [];
 
 const saveUserForm = (e) => {
+    e.preventDefault();
     const name = document.getElementById("name").value;
     const email = document.getElementById("email").value;
     const dob = document.getElementById("dob").value;
