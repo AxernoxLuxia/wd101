@@ -128,11 +128,7 @@ const saveUserForm = (e) => {
     localStorage.setItem("userEntries", JSON.stringify(userEntries));
     displayEntries();
 
-    document.getElementById("name").value = "";
-    document.getElementById("email").value = "";
-    document.getElementById("dob").value = "";
-    document.getElementById("acceptTerms").checked = false;
-    document.getElementById("password").value = "";
+    userForm.reset();
 };
 
 userForm.addEventListener("submit", (e) => saveUserForm(e));
