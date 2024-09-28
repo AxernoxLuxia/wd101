@@ -1,16 +1,7 @@
 //npx tailwindcss -i ./input.css -o ./output.css --watch
 
 //Email Validation
-const email = document.getElementById("email");
-email.addEventListener("input", () => validate(email));
-function validate(email) {
-    if (email.validity.typeMismatch) {
-        email.setCustomValidity("The email is not in the right format");
-        email.reportValidity();
-    } else {
-        email.setCustomValidity("");
-    }
-}
+
 
 //DOB Validaton
 
