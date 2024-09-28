@@ -95,8 +95,8 @@ const displayEntries = () => {
                 <th class="px-4 py-2">Name</th>
                 <th class="px-4 py-2">Email</th>
                 <th class="px-4 py-2">Password</th>
-                <th class="px-4 py-2">Dob</th>
-                <th class="px-4 py-2">Accepted terms?</th>
+                <th class="px-4 py-2">dob</th>
+                <th class="px-4 py-2">accepted terms?</th>
             </tr> ${tableEntries}
         </table>`;
 
