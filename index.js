@@ -96,7 +96,7 @@ const displayEntries = () => {
 };
 
 let userForm = document.getElementById("user-form");
-let userEntries = [];
+let userEntries = retrieveEntries();
 
 const saveUserForm = (e) => {
     e.preventDefault();
